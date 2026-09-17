@@ -262,7 +262,7 @@ const Hero = () => {
 
             <h1 className="hero-anim-item text-4xl sm:text-6xl md:text-7xl lg:text-[6.5rem] xl:text-[7.5rem] font-black tracking-tighter text-white leading-[0.95] sm:leading-[0.9] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
               FATHIMA <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-500 drop-shadow-[0_0_35px_rgba(20,184,166,0.4)]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-500 drop-shadow-[0_0_35px_rgba(20,184,166,0.4)] pr-2 pb-2">
                 SAFIYA
               </span>
             </h1>
