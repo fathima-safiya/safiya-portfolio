@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
+import unifindImg from '../assets/Portfolio/unifind.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,7 +34,7 @@ const projectsData = [
     ],
     github: "https://github.com/fathima-safiya/unifind-lost-and-found",
     liveDemo: "#", // Add later
-    image: null
+    image: unifindImg
   },
   {
     title: "Kurunegala Civic Platform",
