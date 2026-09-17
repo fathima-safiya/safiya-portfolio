@@ -16,6 +16,20 @@ It is designed with a focus on modern web aesthetics, cinematic animations, and 
 - **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing with a custom mobile drawer menu.
 - **Custom Preloader:** An animated isometric cube preloader ensures a smooth entry experience.
 
+## 🚀 Featured Projects
+
+### 🌐 Portfolio Website
+
+A modern personal portfolio website showcasing my projects, technical skills, and experience.
+
+**Tech Stack**
+
+`React.js` `Vite` `Tailwind CSS` `GSAP`
+
+**Live Demo:** [https://safiya-portfolio-tech.vercel.app](https://safiya-portfolio-tech.vercel.app)
+
+**Repository:** [https://github.com/fathima-safiya/safiya-portfolio](https://github.com/fathima-safiya/safiya-portfolio)
+
 ---
 
 ## 🛠️ Technologies Used
