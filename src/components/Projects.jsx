@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,7 +19,7 @@ const projectsData = [
     ],
     github: "https://github.com/fathima-safiya/HallCamilla-Hall-Booking-Management-System",
     liveDemo: "#", // Add later
-    image: null // Add placeholder later
+    image: hallcamillaImg
   },
   {
     title: "UniFind — Campus Lost & Found System",
