@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
 import unifindImg from '../assets/Portfolio/unifind.png';
+import kurunegalaImg from '../assets/Portfolio/kurunegala.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,7 +49,7 @@ const projectsData = [
     ],
     github: "https://github.com/fathima-safiya/kurunegala-civic-platform",
     liveDemo: "#", // Add later
-    image: null
+    image: kurunegalaImg
   }
 ];
 
