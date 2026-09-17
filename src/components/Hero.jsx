@@ -234,15 +234,12 @@ const Hero = () => {
         
         {/* Top Cinematic Badge */}
         <div className="hero-anim-item flex items-center justify-between w-full mb-4 sm:mb-6 md:mb-8">
-          <div className="inline-flex items-center gap-2 sm:gap-2.5 px-3 sm:px-4 py-1 sm:py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-teal-500/40 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-white shadow-xl shadow-teal-500/10">
-            <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 sm:h-2.5 sm:w-2.5 bg-teal-500"></span>
-            </span>
-            <span className="text-teal-400 font-bold tracking-wider">DEVELOPER PORTFOLIO</span>
-            <span className="text-white/40">|</span>
-            <span className="text-white/70">YEAR 2026</span>
-          </div>
+            <div className="inline-flex items-center gap-2 sm:gap-2.5 px-3 sm:px-4 py-1 sm:py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-teal-500/40 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-white/70 shadow-xl shadow-teal-500/10">
+              <span className="text-white/40">//</span>
+              <span className="text-teal-400 font-bold tracking-wider">DEVELOPER PORTFOLIO</span>
+              <span className="text-white/40">•</span>
+              <span>2026</span>
+            </div>
 
         </div>
 
