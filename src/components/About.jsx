@@ -113,13 +113,13 @@ const About = () => {
             <div className="space-y-3 sm:space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Background</h3>
               <p className="text-sm sm:text-base md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an HNDIT student and aspiring <span className="text-white font-bold drop-shadow">Full Stack Developer</span> with a strong interest in building modern, practical, and user-focused software solutions.
+                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an HNDIT student and aspiring <span className="text-white font-bold drop-shadow">Full Stack Developer</span> with a strong interest in building modern, practical, and user-focused software solutions.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My journey into technology has grown through hands-on learning, academic projects, and exploring how software can solve real-world problems. I enjoy turning ideas into functional applications, learning new technologies, and continuously improving the way I design and develop software.
+                My journey in technology has grown through <strong className="text-white/80">hands-on learning, academic projects, and building applications that solve real-world problems</strong>. I enjoy turning ideas into functional software, exploring new technologies, and continuously improving my development skills.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My current focus is on strengthening my skills across <strong className="text-white/80">frontend development, backend development, databases, and modern web technologies</strong>, while gradually exploring the world of <strong className="text-white/80">cloud computing</strong>. My long-term goal is to grow into a well-rounded software professional and specialize in <strong className="text-white/80">Cloud Engineering</strong>, in sha Allah.
+                Currently, I’m strengthening my skills across <strong className="text-white/80">frontend development, backend development, database management, and modern web technologies</strong>, while gradually exploring <strong className="text-white/80">cloud computing</strong>. My long-term goal is to become a well-rounded software professional and grow into <strong className="text-white/80">Cloud Engineering</strong>.
               </p>
             </div>
             
