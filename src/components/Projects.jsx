@@ -20,7 +20,7 @@ const projectsData = [
       "Firebase"
     ],
     github: "https://github.com/fathima-safiya/HallCamilla-Hall-Booking-Management-System",
-    liveDemo: "#", // Add later
+    liveDemo: "https://hall-camilla-hall-booking-management-system-2htm5sm57.vercel.app",
     image: hallcamillaImg
   },
   {
@@ -34,7 +34,7 @@ const projectsData = [
       "Tailwind CSS"
     ],
     github: "https://github.com/fathima-safiya/unifind-lost-and-found",
-    liveDemo: "#", // Add later
+    liveDemo: null, // Removed as requested
     image: unifindImg
   },
   {
@@ -48,7 +48,7 @@ const projectsData = [
       "Tailwind CSS"
     ],
     github: "https://github.com/fathima-safiya/kurunegala-civic-platform",
-    liveDemo: "#", // Add later
+    liveDemo: "https://kurunegala-civic-platform.vercel.app",
     image: kurunegalaImg
   }
 ];
@@ -170,14 +170,16 @@ const Projects = () => {
                 {/* Action Buttons Row */}
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mt-auto">
                   {/* Live Demo Button (Teal) */}
-                  <a 
-                    href={project.liveDemo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-[13px] sm:text-sm font-bold shadow-[0_5px_15px_rgba(20,184,166,0.2)] hover:shadow-[0_8px_25px_rgba(20,184,166,0.4)] hover:-translate-y-0.5 transition-all"
-                  >
-                    Live Demo
-                  </a>
+                  {project.liveDemo && (
+                    <a 
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-[13px] sm:text-sm font-bold shadow-[0_5px_15px_rgba(20,184,166,0.2)] hover:shadow-[0_8px_25px_rgba(20,184,166,0.4)] hover:-translate-y-0.5 transition-all"
+                    >
+                      Live Demo
+                    </a>
+                  )}
                   {/* GitHub Button (Outlined Dark) */}
                   <a 
                     href={project.github}

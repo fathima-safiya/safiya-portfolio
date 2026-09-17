@@ -253,11 +253,11 @@ const Hero = () => {
           <div className="lg:col-span-7 flex flex-col items-start space-y-4 sm:space-y-5 text-left">
             
             <div className="hero-anim-item flex items-center gap-2.5 sm:gap-3">
-              <span className="px-2.5 sm:px-3 py-1 bg-teal-500/10 border border-teal-500/30 text-teal-400 font-bold text-[9px] sm:text-[10px] uppercase rounded tracking-widest shadow-[0_0_15px_rgba(20,184,166,0.15)] animate-pulse">OPEN TO WORK</span>
-              <span className="text-white/70 text-lg sm:text-xl md:text-2xl font-black font-mono tracking-widest uppercase">Software Engineer</span>
+              <span className="px-3 sm:px-4 py-1.5 bg-teal-500/10 border border-teal-500/30 text-teal-400 font-bold text-xs sm:text-sm md:text-base uppercase rounded tracking-widest shadow-[0_0_15px_rgba(20,184,166,0.15)] animate-pulse">OPEN TO WORK</span>
+              <span className="text-white/70 text-2xl sm:text-3xl md:text-4xl font-black font-mono tracking-widest uppercase">Software Engineer</span>
             </div>
 
-            <h1 className="hero-anim-item text-4xl sm:text-6xl md:text-7xl lg:text-[6.5rem] xl:text-[7.5rem] font-black tracking-tighter text-white leading-[0.95] sm:leading-[0.9] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
+            <h1 className="hero-anim-item text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-black tracking-tighter text-white leading-[0.95] sm:leading-[0.9] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
               FATHIMA <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-500 drop-shadow-[0_0_35px_rgba(20,184,166,0.4)] pr-2 pb-2">
                 SAFIYA
