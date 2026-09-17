@@ -1,16 +1,68 @@
-# React + Vite
+# Fathima Safiya - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This project showcases my journey as a Full Stack Developer, my technical skills, and the projects I've built. 
 
-Currently, two official plugins are available:
+It is designed with a focus on modern web aesthetics, cinematic animations, and interactive user experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[🚀 View Live Portfolio](https://safiya-portfolio-tech.vercel.app)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Modern UI/UX:** Built with a sleek, dark-themed aesthetic featuring glassmorphism and glowing accents.
+- **Cinematic Animations:** Powered by GSAP for smooth scroll triggers, staggers, and interactive 3D tilt effects.
+- **Interactive Bento Grid:** The "About" section utilizes a modern bento box layout with real-time mouse-tracking spotlight effects.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing with a custom mobile drawer menu.
+- **Custom Preloader:** An animated isometric cube preloader ensures a smooth entry experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP (GreenSock Animation Platform)
+- **Deployment:** Vercel
+
+---
+
+## 💻 Local Setup
+
+If you'd like to run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/fathima-safiya/safiya-portfolio.git
+   ```
+
+2. **Navigate into the project directory:**
+   ```bash
+   cd safiya-portfolio
+   ```
+
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5174` (or the port specified in your terminal).
+
+---
+
+## 📬 Contact
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+
+- **Email:** fathima.safiya.tech@gmail.com
+- **LinkedIn:** [Fathima Safiya](https://linkedin.com/in/fathima-safiya-tech/)
+- **GitHub:** [fathima-safiya](https://github.com/fathima-safiya)
+
+---
+*Designed and built by Fathima Safiya.*
