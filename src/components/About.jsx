@@ -113,23 +113,23 @@ const About = () => {
             <div className="space-y-3 sm:space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Background</h3>
               <p className="text-sm sm:text-base md:text-xl font-medium text-white/90 leading-relaxed">
-                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, a <strong className="text-white/80">Higher National Diploma in Information Technology (HNDIT) student</strong> and aspiring <span className="text-white font-bold drop-shadow">Software Engineer</span> focused on turning ideas into practical digital solutions.
+                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an <strong className="text-white/80">Information Technology undergraduate pursuing a Higher National Diploma in Information Technology (HNDIT) at SLIATE Kurunegala</strong>, with a strong focus on <strong className="text-white/80">software development and building practical digital solutions</strong>.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My development journey has been shaped by <strong className="text-white/80">hands-on projects, academic work, and continuous experimentation</strong> with different technologies. I enjoy understanding how systems work, solving development challenges, and transforming real-world problems into functional software.
+                My development journey is driven by hands-on projects and problem-solving. I enjoy taking an idea, understanding the problem behind it, and turning it into <strong className="text-white/80">structured, functional, and user-focused software</strong>. Through academic and personal projects, I’ve worked across frontend development, backend logic, databases, authentication, and cloud-based services.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                Currently, I’m building a stronger foundation across <strong className="text-white/80">frontend development, backend development, databases, software architecture, and modern web technologies</strong>. Alongside software development, I’m gradually exploring <strong className="text-white/80">cloud computing</strong> to understand how applications move beyond development into reliable, scalable environments.
+                I have a growing foundation in <strong className="text-white/80">Java, JavaScript, TypeScript, PHP, React, MySQL, Firebase, and modern web technologies</strong>, supported by knowledge of <strong className="text-white/80">object-oriented programming, database management, and software development principles</strong>.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My goal is to grow from building applications into designing and engineering <strong className="text-white/80">complete, maintainable, and scalable software solutions</strong>, eventually progressing toward <strong className="text-white/80">Cloud Engineering</strong>.
+                I’m focused on becoming a well-rounded <strong className="text-white/80">Software Engineer</strong> who can build reliable applications, understand systems beyond the interface, and continuously grow with new technologies. My long-term direction is to extend this foundation into <strong className="text-white/80">Cloud Engineering</strong> and scalable software systems.
               </p>
             </div>
             
             <div className="pt-6 sm:pt-8 flex flex-wrap gap-2 relative z-10">
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Software Engineering</span>
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Web Development</span>
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">System Design</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Software Development</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Full-Stack Development</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Problem Solving</span>
               <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Cloud Computing</span>
             </div>
           </div>
@@ -153,24 +153,38 @@ const About = () => {
             
             <div className="space-y-4 sm:space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Currently Exploring</h3>
-              <ul className="space-y-5 text-sm sm:text-base text-white/80 font-light">
+              <p className="text-sm sm:text-base text-white/90 leading-relaxed font-medium pb-2">
+                I’m currently focused on strengthening the engineering fundamentals behind the applications I build.
+              </p>
+              <ul className="space-y-3 sm:space-y-4 text-sm sm:text-base text-white/80 font-light">
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-                  <span className="leading-relaxed">Deepening my <strong className="text-white font-medium">React & TypeScript</strong> skills while exploring <strong className="text-white font-medium">Next.js</strong> and modern frontend architecture.</span>
+                  <span className="leading-relaxed">Deepening my <strong className="text-white font-medium">React & TypeScript</strong> skills through practical application development.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  <span className="leading-relaxed">Building practical projects to strengthen <strong className="text-white font-medium">backend development, database design, APIs, and application architecture</strong>.</span>
+                  <span className="leading-relaxed">Improving my understanding of <strong className="text-white font-medium">backend development, APIs, databases, and application architecture</strong>.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+                  <span className="leading-relaxed">Exploring <strong className="text-white font-medium">Next.js</strong> and modern approaches to building scalable web applications.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
-                  <span className="leading-relaxed">Exploring <strong className="text-white font-medium">Cloud Computing</strong> to understand application deployment, infrastructure, scalability, and modern development workflows.</span>
+                  <span className="leading-relaxed">Beginning my journey into <strong className="text-white font-medium">Cloud Computing</strong>, with an interest in how applications are deployed, managed, and scaled.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+                  <span className="leading-relaxed">Building projects that challenge me to write <strong className="text-white font-medium">cleaner code, design better systems, and solve real-world problems</strong>.</span>
                 </li>
               </ul>
             </div>
             
-            <div className="pt-8 font-mono text-xs sm:text-sm md:text-base text-white/40 relative z-10 tracking-widest uppercase">
-              // FORWARD MOMENTUM
+            <div className="pt-6 sm:pt-8 font-mono text-xs sm:text-sm md:text-base text-white/40 relative z-10 flex flex-col gap-2">
+              <span className="tracking-widest uppercase">// FORWARD MOMENTUM</span>
+              <span className="normal-case font-sans text-sm sm:text-base text-white/80 leading-relaxed font-light">
+                Building stronger software foundations today, with a long-term direction toward <strong className="text-teal-400 font-medium">Cloud Engineering</strong>.
+              </span>
             </div>
           </div>
 
