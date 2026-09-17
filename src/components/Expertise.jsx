@@ -140,7 +140,7 @@ const Expertise = () => {
               </span>
             </h2>
           </div>
-          <p className="text-white/60 text-xs sm:text-sm font-light leading-relaxed max-w-xs">
+          <p className="text-white/60 text-sm sm:text-base md:text-lg font-light leading-relaxed max-w-sm md:max-w-md">
             Leveraging modern web technologies to build functional, scalable, and responsive applications.
           </p>
         </div>
