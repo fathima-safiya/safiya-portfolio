@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import pictureImg from '../assets/Portfolio/picture_blue.jpg';
+import pictureImg from '../assets/Portfolio/picture_blue.png';
 
 const Hero = () => {
   const sectionRef = useRef(null);
@@ -11,10 +11,10 @@ const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const developerRoles = [
-    'FULL STACK DEVELOPER',
+    'SOFTWARE ENGINEER',
     'WEB DEVELOPER',
     'SOFTWARE DEVELOPER',
-    'FULL STACK DEVELOPER'
+    'SOFTWARE ENGINEER'
   ];
 
   useEffect(() => {
@@ -243,10 +243,7 @@ const Hero = () => {
             <span className="text-white/40">|</span>
             <span className="text-white/70">YEAR 2026</span>
           </div>
-          <div className="hidden sm:flex items-center gap-2 text-xs font-mono text-white/80 tracking-wider">
-            <span className="px-2 py-0.5 border border-white/10 rounded bg-black/40">FULL STACK</span>
-            <span className="px-2 py-0.5 border border-white/10 rounded bg-black/40">HNDIT STUDENT</span>
-          </div>
+
         </div>
 
         {/* Main Center Cinematic Stage Layout */}
@@ -257,7 +254,7 @@ const Hero = () => {
             
             <div className="hero-anim-item flex items-center gap-2.5 sm:gap-3">
               <span className="px-2.5 sm:px-3 py-1 bg-teal-500/10 border border-teal-500/30 text-teal-400 font-bold text-[9px] sm:text-[10px] uppercase rounded tracking-widest shadow-[0_0_15px_rgba(20,184,166,0.15)] animate-pulse">OPEN TO WORK</span>
-              <span className="text-white/70 text-sm sm:text-base md:text-lg font-bold font-mono tracking-widest uppercase">Software Engineer</span>
+              <span className="text-white/70 text-lg sm:text-xl md:text-2xl font-black font-mono tracking-widest uppercase">Software Engineer</span>
             </div>
 
             <h1 className="hero-anim-item text-4xl sm:text-6xl md:text-7xl lg:text-[6.5rem] xl:text-[7.5rem] font-black tracking-tighter text-white leading-[0.95] sm:leading-[0.9] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
@@ -332,7 +329,7 @@ const Hero = () => {
                   <img
                     src={pictureImg}
                     alt="Developer Portrait"
-                    className="w-full h-[300px] sm:h-[380px] md:h-[420px] lg:h-[460px] xl:h-[500px] object-cover rounded-xl filter contrast-[1.1] brightness-[1.05] group-hover:scale-[1.02] transition-transform duration-500"
+                    className="w-full h-[300px] sm:h-[380px] md:h-[420px] lg:h-[460px] xl:h-[500px] object-cover rounded-xl group-hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>
               </div>

@@ -80,7 +80,7 @@ const About = () => {
             </span>
             <span className="text-teal-400 font-bold">SECTION 01</span>
             <span className="text-white/40">|</span>
-            <span>ABOUT THE DEVELOPER</span>
+            <span>MY BACKGROUND</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter text-white leading-tight">
             PROFESSIONAL SUMMARY <br />
@@ -113,20 +113,23 @@ const About = () => {
             <div className="space-y-3 sm:space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Background</h3>
               <p className="text-sm sm:text-base md:text-xl font-medium text-white/90 leading-relaxed">
-                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an HNDIT student and aspiring <span className="text-white font-bold drop-shadow">Full Stack Developer</span> with a strong interest in building modern, practical, and user-focused software solutions.
+                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, a <strong className="text-white/80">Higher National Diploma in Information Technology (HNDIT) student</strong> and aspiring <span className="text-white font-bold drop-shadow">Software Engineer</span> focused on turning ideas into practical digital solutions.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My journey in technology has grown through <strong className="text-white/80">hands-on learning, academic projects, and building applications that solve real-world problems</strong>. I enjoy turning ideas into functional software, exploring new technologies, and continuously improving my development skills.
+                My development journey has been shaped by <strong className="text-white/80">hands-on projects, academic work, and continuous experimentation</strong> with different technologies. I enjoy understanding how systems work, solving development challenges, and transforming real-world problems into functional software.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                Currently, I’m strengthening my skills across <strong className="text-white/80">frontend development, backend development, database management, and modern web technologies</strong>, while gradually exploring <strong className="text-white/80">cloud computing</strong>. My long-term goal is to become a well-rounded software professional and grow into <strong className="text-white/80">Cloud Engineering</strong>.
+                Currently, I’m building a stronger foundation across <strong className="text-white/80">frontend development, backend development, databases, software architecture, and modern web technologies</strong>. Alongside software development, I’m gradually exploring <strong className="text-white/80">cloud computing</strong> to understand how applications move beyond development into reliable, scalable environments.
+              </p>
+              <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
+                My goal is to grow from building applications into designing and engineering <strong className="text-white/80">complete, maintainable, and scalable software solutions</strong>, eventually progressing toward <strong className="text-white/80">Cloud Engineering</strong>.
               </p>
             </div>
             
             <div className="pt-6 sm:pt-8 flex flex-wrap gap-2 relative z-10">
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Frontend Development</span>
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Backend Development</span>
-              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Database Management</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Software Engineering</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Web Development</span>
+              <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">System Design</span>
               <span className="px-3 py-1 sm:px-3.5 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Cloud Computing</span>
             </div>
           </div>
@@ -153,15 +156,15 @@ const About = () => {
               <ul className="space-y-5 text-sm sm:text-base text-white/80 font-light">
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-                  <span className="leading-relaxed">Strengthening my frontend skills with <strong className="text-white font-medium">React & Next.js</strong>.</span>
+                  <span className="leading-relaxed">Deepening my <strong className="text-white font-medium">React & TypeScript</strong> skills while exploring <strong className="text-white font-medium">Next.js</strong> and modern frontend architecture.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  <span className="leading-relaxed">Building small projects to improve my <strong className="text-white font-medium">backend development</strong> and application architecture skills.</span>
+                  <span className="leading-relaxed">Building practical projects to strengthen <strong className="text-white font-medium">backend development, database design, APIs, and application architecture</strong>.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
-                  <span className="leading-relaxed">Exploring <strong className="text-white font-medium">Cloud Computing</strong> and learning how modern applications are deployed and scaled.</span>
+                  <span className="leading-relaxed">Exploring <strong className="text-white font-medium">Cloud Computing</strong> to understand application deployment, infrastructure, scalability, and modern development workflows.</span>
                 </li>
               </ul>
             </div>
