@@ -7,8 +7,10 @@ const Contact = () => {
   // React Form State tracking
   const [formData, setFormData] = useState({
     name: '',
+    email: '',
     message: ''
   });
+  const [status, setStatus] = useState('');
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -28,22 +30,38 @@ const Contact = () => {
   };
 
   // Handle form submission logic
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!formData.name.trim() || !formData.message.trim()) {
-      alert("Please provide both your name and a message.");
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+      alert("Please fill in all fields.");
       return;
     }
 
-    const text = `Hello Fathima Safiya,\n\nMy name is ${formData.name}.\n\n${formData.message}`;
-    const encodedText = encodeURIComponent(text);
-    
-    // Open WhatsApp in a new tab
-    const phone = "94705178558";
-    window.open(`https://wa.me/${phone}?text=${encodedText}`, '_blank');
-    
-    setFormData({ name: '', message: '' });
+    setStatus('sending');
+
+    try {
+      // REPLACE THIS URL WITH YOUR ACTUAL FORMSPREE ENDPOINT
+      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert("Message sent successfully!");
+        setFormData({ name: '', email: '', message: '' });
+        setStatus('success');
+      } else {
+        alert("Failed to send message. Please check your form endpoint.");
+        setStatus('error');
+      }
+    } catch (error) {
+      alert("An error occurred. Please try again.");
+      setStatus('error');
+    }
   };
 
   return (
@@ -137,12 +155,11 @@ const Contact = () => {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-1 bg-gradient-to-r from-transparent via-teal-500 to-transparent opacity-90"></div>
 
             <div className="mb-6 sm:mb-10">
-              <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight flex items-center gap-3 sm:gap-4">
+              <h3 className="text-3xl sm:text-4xl font-black text-white flex flex-wrap items-center gap-3">
                 Send Message
-                <span className="px-2 py-0.5 sm:py-1 rounded bg-teal-500/10 border border-teal-500/30 text-[9px] sm:text-[10px] tracking-widest font-mono text-teal-400 uppercase mt-0.5 sm:mt-1">DIRECT</span>
               </h3>
               <p className="text-xs sm:text-sm text-white/80 mt-2 sm:mt-3 font-light leading-relaxed">
-                Skip the formalities. Let's connect instantly on WhatsApp.
+                Have a question or want to work together? Send me an email directly.
               </p>
             </div>
 
@@ -155,6 +172,18 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Your Name" 
+                  required
+                  className="w-full bg-transparent border-b border-white/10 pb-2.5 sm:pb-3 text-base sm:text-lg focus:outline-none focus:border-teal-500 transition-colors placeholder-white/40 font-medium rounded-none text-white"
+                />
+              </div>
+
+              <div className="relative">
+                <input 
+                  type="email" 
+                  id="email" 
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="Your Email" 
                   required
                   className="w-full bg-transparent border-b border-white/10 pb-2.5 sm:pb-3 text-base sm:text-lg focus:outline-none focus:border-teal-500 transition-colors placeholder-white/40 font-medium rounded-none text-white"
                 />
@@ -174,12 +203,15 @@ const Contact = () => {
               <div className="flex flex-col gap-6 mt-2 sm:mt-4">
                 <button 
                   type="submit" 
-                  className="w-full py-3.5 sm:py-4 rounded bg-white hover:bg-slate-200 text-[#0B1120] font-bold uppercase tracking-widest text-xs flex items-center justify-center gap-3 transition-all duration-300 group shadow-[0_10px_30px_rgba(255,255,255,0.15)] hover:shadow-[0_15px_40px_rgba(255,255,255,0.25)] hover:scale-[1.02] active:scale-95"
+                  disabled={status === 'sending'}
+                  className="w-full py-3.5 sm:py-4 rounded bg-white hover:bg-slate-200 text-[#0B1120] font-bold uppercase tracking-widest text-xs flex items-center justify-center gap-3 transition-all duration-300 group shadow-[0_10px_30px_rgba(255,255,255,0.15)] hover:shadow-[0_15px_40px_rgba(255,255,255,0.25)] hover:scale-[1.02] active:scale-95 disabled:opacity-70 disabled:hover:scale-100"
                 >
-                  Send Message
-                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
+                  {status !== 'sending' && (
+                    <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  )}
                 </button>
 
                 <div className="flex items-center gap-2 text-xs font-mono text-white/80 border-t border-white/10 pt-5 uppercase tracking-widest">
