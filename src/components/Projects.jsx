@@ -4,8 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
 import unifindImg from '../assets/Portfolio/unifind.png';
 import kurunegalaImg from '../assets/Portfolio/kurunegala.png';
-// Portfolio image placeholder - please replace with actual screenshot later
-import portfolioImg from '../assets/Portfolio/mine2.png';
+// Portfolio image screenshot
+import portfolioImg from '../assets/Portfolio/portfolio.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
