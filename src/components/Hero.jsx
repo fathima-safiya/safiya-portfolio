@@ -106,7 +106,7 @@ const Hero = () => {
     <section
       id="home"
       ref={sectionRef}
-      className="relative w-full min-h-[100svh] bg-[#0B1120] overflow-hidden flex flex-col justify-between select-none pb-8 sm:pb-12"
+      className="relative w-full bg-[#0B1120] overflow-hidden flex flex-col justify-between select-none pb-8 sm:pb-12"
     >
       <style>{`
         @keyframes marquee {

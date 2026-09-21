@@ -114,7 +114,7 @@ const Expertise = () => {
     <section
       id="skills"
       ref={containerRef}
-      className="relative w-full bg-[#0B1120] text-white py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
+      className="relative w-full bg-[#0B1120] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
     >
       {/* Cinematic Ambient Glow */}
       <div className="absolute top-1/3 left-1/4 w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] bg-teal-500/10 rounded-full blur-[120px] sm:blur-[140px] pointer-events-none"></div>
