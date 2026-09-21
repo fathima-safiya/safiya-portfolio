@@ -80,7 +80,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" ref={containerRef} className="bg-[#0B1120] relative font-sans text-white w-full py-8 sm:py-10 md:py-12 px-4 sm:px-6 md:px-12 select-none overflow-hidden">
+    <section id="projects" ref={containerRef} className="bg-[#0B1120] relative font-sans text-white w-full py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden">
 
       {/* Background Cinematic Title Watermark */}
       <div className="absolute top-10 left-0 w-full flex items-start justify-center pointer-events-none z-0">

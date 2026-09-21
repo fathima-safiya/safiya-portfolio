@@ -27,7 +27,7 @@ const Expertise = () => {
   return (
     <section
       id="skills"
-      className="relative w-full bg-[#0B1120] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
+      className="relative w-full bg-[#0B1120] text-white py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
     >
       <div className="relative z-10 max-w-7xl mx-auto w-full space-y-8 sm:space-y-12">
         
