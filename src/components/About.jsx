@@ -113,7 +113,7 @@ const About = () => {
             <div className="space-y-3 sm:space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Background</h3>
               <p className="text-sm sm:text-base md:text-xl font-medium text-white/90 leading-relaxed">
-                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an <strong className="text-white/80">Information Technology undergraduate pursuing a Higher National Diploma in Information Technology (HNDIT) at SLIATE Kurunegala</strong>, focused on building practical software and developing strong engineering fundamentals.
+                I’m <span className="text-white font-bold drop-shadow">Fathima Safiya</span>, an <strong className="text-white/80">undergraduate Software Engineer focused on building practical software and developing strong engineering fundamentals at SLIATE Kurunegala</strong>.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
                 I enjoy turning ideas into <strong className="text-white/80">functional, structured, and user-focused applications</strong>. My learning has been shaped through hands-on academic and personal projects, where I’ve worked across frontend development, backend logic, databases, authentication, and cloud-connected services.
