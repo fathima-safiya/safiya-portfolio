@@ -11,9 +11,7 @@ const Footer = () => {
             <div className="text-xl sm:text-2xl font-black text-teal-500 tracking-tighter flex items-center gap-1.5 sm:gap-2 drop-shadow-[0_2px_15px_rgba(20,184,166,0.9)]">
               SAFIYA<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
             </div>
-            <p className="text-xs sm:text-sm md:text-base font-mono text-white/80 tracking-widest uppercase">
-              // DEVELOPER PORTFOLIO &bull; 2026
-            </p>
+
           </div>
 
           {/* Quick Navigation Links */}
