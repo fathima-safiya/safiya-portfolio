@@ -232,13 +232,7 @@ const Hero = () => {
       {/* 3. Main Content Layer */}
       <div ref={contentRef} className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex-1 flex flex-col justify-start pt-20 sm:pt-24 md:pt-28 pb-8 sm:pb-10">
         
-        {/* Top Cinematic Badge */}
-        <div className="hero-anim-item flex items-center justify-between w-full mb-4 sm:mb-6 md:mb-8">
-            <div className="inline-flex items-center gap-2 sm:gap-2.5 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-white/60">
-              <span>// DEVELOPER PORTFOLIO &bull; 2026</span>
-            </div>
 
-        </div>
 
         {/* Main Center Cinematic Stage Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-12">
