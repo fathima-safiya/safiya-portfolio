@@ -93,10 +93,10 @@ const About = () => {
         {/* Bento Grid Layout with Interactive Mouse Light Tracking */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-5 sm:gap-6">
           
-          {/* Card 1: Bio & Academic Core (Span 7) */}
+          {/* Card 1: Bio & Academic Core (Span 12) */}
           <div
             ref={addToRefs}
-            className="md:col-span-7 p-6 sm:p-8 md:p-12 bg-[#0f172a]/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col justify-between relative group hover:border-teal-500/60 hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_20px_60px_rgba(20,184,166,0.15)] transition-all duration-500 overflow-hidden"
+            className="md:col-span-12 p-6 sm:p-8 md:p-12 bg-[#0f172a]/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col justify-between relative group hover:border-teal-500/60 hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_20px_60px_rgba(20,184,166,0.15)] transition-all duration-500 overflow-hidden"
           >
             {/* Real-time mouse hover spotlight highlight */}
             <div 
@@ -134,63 +134,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Card 2: Currently Exploring (Span 5) */}
-          <div
-            ref={addToRefs}
-            className="md:col-span-5 p-6 sm:p-8 md:p-12 bg-[#0f172a]/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col justify-between relative group hover:border-teal-500/60 hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_20px_60px_rgba(20,184,166,0.15)] transition-all duration-500 overflow-hidden"
-          >
-            {/* Real-time mouse hover spotlight highlight */}
-            <div 
-              className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              style={{
-                background: 'radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(20,184,166,0.15), transparent 70%)'
-              }}
-            ></div>
-
-            <div className="absolute top-0 right-0 p-6 sm:p-8 text-white/5 font-mono text-5xl sm:text-7xl font-black pointer-events-none">
-              02
-            </div>
-            
-            <div className="space-y-4 sm:space-y-5 relative z-10">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-teal-400 font-bold">Currently Exploring</h3>
-              <p className="text-sm sm:text-base text-white/90 leading-relaxed font-medium pb-2">
-                I’m strengthening my software engineering foundation while exploring modern technologies and cloud systems.
-              </p>
-              <ul className="space-y-3 sm:space-y-4 text-sm sm:text-base text-white/80 font-light">
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">React & TypeScript</strong> — building scalable, maintainable applications.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">Backend & APIs</strong> — improving server-side development and application architecture.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">Databases</strong> — strengthening data design and management.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">Next.js</strong> — exploring modern full-stack development.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">Cloud Computing</strong> — learning how applications are deployed, managed, and scaled.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-teal-400 shrink-0 mt-0.5 drop-shadow-[0_0_8px_rgba(20,184,166,0.6)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
-                  <span className="leading-relaxed"><strong className="text-white font-medium">Software Engineering</strong> — focusing on clean code, system design, and maintainable projects.</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="pt-6 sm:pt-8 font-mono text-xs sm:text-sm md:text-base text-white/40 relative z-10 flex flex-col gap-2">
-              <span className="tracking-widest uppercase">// FORWARD MOMENTUM</span>
-              <span className="normal-case font-sans text-sm sm:text-base text-white/80 leading-relaxed font-light">
-                Building stronger software foundations today, moving toward <strong className="text-teal-400 font-medium">Cloud Engineering</strong>.
-              </span>
-            </div>
-          </div>
 
           {/* Card 3: Technical Ecosystem (Span 12) */}
           <div
