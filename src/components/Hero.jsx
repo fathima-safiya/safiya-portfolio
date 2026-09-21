@@ -249,8 +249,8 @@ const Hero = () => {
           {/* Left Side: Developer Story & Description */}
           <div className="lg:col-span-7 flex flex-col items-start space-y-4 sm:space-y-5 text-left">
             
-            <div className="hero-anim-item flex items-center gap-2.5 sm:gap-3">
-              <span className="px-3 sm:px-4 py-1.5 bg-teal-500/10 border border-teal-500/30 text-teal-400 font-bold text-xs sm:text-sm md:text-base uppercase rounded tracking-widest shadow-[0_0_15px_rgba(20,184,166,0.15)] animate-pulse">OPEN TO WORK</span>
+            <div className="hero-anim-item flex flex-col items-start gap-2.5 sm:gap-3">
+              <span className="px-3 sm:px-4 py-1.5 bg-teal-500/10 border border-teal-500/30 text-teal-400 font-bold text-xs sm:text-sm md:text-base uppercase rounded tracking-widest shadow-[0_0_15px_rgba(20,184,166,0.15)] animate-pulse w-fit">OPEN TO WORK</span>
               <span className="text-white/70 text-2xl sm:text-3xl md:text-4xl font-black font-mono tracking-widest uppercase">Intern Software Engineer</span>
             </div>
 
