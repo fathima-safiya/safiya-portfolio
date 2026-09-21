@@ -4,6 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
 import unifindImg from '../assets/Portfolio/unifind.png';
 import kurunegalaImg from '../assets/Portfolio/kurunegala.png';
+// Portfolio image placeholder - please replace with actual screenshot later
+import portfolioImg from '../assets/Portfolio/mine2.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -50,6 +52,20 @@ const projectsData = [
     github: "https://github.com/fathima-safiya/kurunegala-civic-platform",
     liveDemo: "https://kurunegala-civic-platform.vercel.app",
     image: kurunegalaImg
+  },
+  {
+    title: "Personal Developer Portfolio",
+    category: "Web Application",
+    description: "My personal developer portfolio showcasing my journey in Full Stack Development, featuring projects built with React, Node.js, and modern web technologies.",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "GSAP",
+      "Vite"
+    ],
+    github: "https://github.com/fathima-safiya/safiya-portfolio",
+    liveDemo: "https://safiya-portfolio-tech.vercel.app",
+    image: portfolioImg
   }
 ];
 
