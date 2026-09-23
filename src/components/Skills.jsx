@@ -166,7 +166,7 @@ const Skills = () => {
     <section 
       id="skills"
       ref={sectionRef} 
-      className="relative w-full h-screen bg-slate-900 text-white overflow-hidden flex items-center justify-center md:[perspective:1000px] select-none"
+      className="relative w-full h-screen bg-blue-950 text-white overflow-hidden flex items-center justify-center md:[perspective:1000px] select-none"
     >
       {/* Dynamic Dark Background Vignettes */}
       {skillCategories.map((_, i) => (
@@ -185,7 +185,7 @@ const Skills = () => {
             ref={el => textRefs.current[i] = el}
             className="absolute text-[22vw] md:text-[18vw] font-black uppercase text-transparent leading-none tracking-tighter mix-blend-overlay"
             style={{ 
-               WebkitTextStroke: `2px ${i % 2 === 0 ? 'rgba(16,185,129,0.3)' : 'rgba(255,255,255,0.15)'}`,
+               WebkitTextStroke: `2px ${i % 2 === 0 ? 'rgba(56,189,248,0.3)' : 'rgba(255,255,255,0.15)'}`,
                opacity: 0 
             }}
           >
@@ -203,14 +203,14 @@ const Skills = () => {
           <div 
             key={i}
             ref={el => cardsRef.current[i] = el}
-            className="md:absolute relative shrink-0 snap-center w-[82vw] sm:w-[360px] md:w-[440px] h-[460px] md:h-[540px] rounded-[32px] p-8 md:p-10 bg-white/95 backdrop-blur-2xl border border-white/15 flex flex-col justify-between overflow-hidden group shadow-[0_30px_60px_rgba(0,0,0,0.9)] hover:border-emerald-500/80 transition-colors duration-500"
+            className="md:absolute relative shrink-0 snap-center w-[82vw] sm:w-[360px] md:w-[440px] h-[460px] md:h-[540px] rounded-[32px] p-8 md:p-10 bg-white/95 backdrop-blur-2xl border border-white/15 flex flex-col justify-between overflow-hidden group shadow-[0_30px_60px_rgba(0,0,0,0.9)] hover:border-sky-500/80 transition-colors duration-500"
           >
             {/* Inner Red Glossy Reflection */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-teal-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-20" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-sky-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-20" />
             
             {/* Top Card Metadata */}
             <div className="flex items-center justify-between relative z-10">
-              <span className="text-[10px] font-mono font-bold tracking-widest uppercase text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded border border-emerald-500/20">
+              <span className="text-[10px] font-mono font-bold tracking-widest uppercase text-sky-400 bg-sky-500/10 px-3 py-1 rounded border border-sky-500/20">
                 {category.tag}
               </span>
               <span className="text-xs font-mono text-white/40">
@@ -220,7 +220,7 @@ const Skills = () => {
 
             {/* Middle Title & Description */}
             <div className="space-y-4 relative z-10 my-auto">
-              <h3 className="text-3xl md:text-4xl font-black text-white tracking-tight group-hover:text-emerald-400 transition-colors duration-300">
+              <h3 className="text-3xl md:text-4xl font-black text-white tracking-tight group-hover:text-sky-400 transition-colors duration-300">
                 {category.title}
               </h3>
               <p className="text-sm md:text-base text-white/70 font-light leading-relaxed">
@@ -233,7 +233,7 @@ const Skills = () => {
               {category.skills.map((skill, sIdx) => (
                 <span 
                   key={sIdx}
-                  className="text-xs font-mono text-white/70 bg-white/5 border border-white/10 px-3 py-1 rounded group-hover:border-emerald-500/30 transition-colors"
+                  className="text-xs font-mono text-white/70 bg-white/5 border border-white/10 px-3 py-1 rounded group-hover:border-sky-500/30 transition-colors"
                 >
                   {skill}
                 </span>
@@ -241,7 +241,7 @@ const Skills = () => {
             </div>
 
             {/* Bottom Glow Accent */}
-            <div className="absolute bottom-4 right-4 w-2 h-2 rounded-full bg-emerald-500 group-hover:shadow-[0_0_15px_#14b8a6] transition-all" />
+            <div className="absolute bottom-4 right-4 w-2 h-2 rounded-full bg-sky-500 group-hover:shadow-[0_0_15px_#38bdf8] transition-all" />
           </div>
         ))}
       </div>

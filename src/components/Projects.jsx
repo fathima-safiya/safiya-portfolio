@@ -96,7 +96,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" ref={containerRef} className="bg-slate-900 relative font-sans text-white w-full py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden">
+    <section id="projects" ref={containerRef} className="bg-blue-950 relative font-sans text-white w-full py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden">
 
       {/* Background Cinematic Title Watermark */}
       <div className="absolute top-10 left-0 w-full flex items-start justify-center pointer-events-none z-0">
@@ -106,24 +106,24 @@ const Projects = () => {
       </div>
 
       {/* Ambient Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] bg-emerald-500/10 rounded-full blur-[160px] pointer-events-none z-0" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] bg-sky-500/10 rounded-full blur-[160px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto w-full space-y-12 sm:space-y-16">
 
         {/* Section Header */}
         <div className="flex flex-col items-center sm:items-start space-y-4">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-emerald-500/40 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-white shadow-2xl">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-sky-500/40 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-white shadow-2xl">
             <span className="relative flex h-2.5 w-2.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-sky-500"></span>
             </span>
-            <span className="text-emerald-400 font-bold">SECTION 02</span>
+            <span className="text-sky-400 font-bold">SECTION 02</span>
             <span className="text-white/40">|</span>
             <span>MY WORK</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter text-white leading-tight text-center sm:text-left">
             FEATURED <br className="hidden sm:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-blue-500 to-teal-600 drop-shadow-[0_0_30px_rgba(16,185,129,0.4)]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-500 to-sky-600 drop-shadow-[0_0_30px_rgba(56,189,248,0.4)]">
               PROJECTS.
             </span>
           </h2>
@@ -135,7 +135,7 @@ const Projects = () => {
             <div
               key={i}
               ref={el => cardsRef.current[i] = el}
-              className="group flex flex-col w-full h-full rounded-2xl sm:rounded-[24px] overflow-hidden border border-white/10 bg-slate-900/90 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:border-emerald-500/50 hover:shadow-[0_25px_60px_rgba(16,185,129,0.15)] transition-all duration-500 hover:-translate-y-2 relative"
+              className="group flex flex-col w-full h-full rounded-2xl sm:rounded-[24px] overflow-hidden border border-white/10 bg-blue-950/90 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:border-sky-500/50 hover:shadow-[0_25px_60px_rgba(56,189,248,0.15)] transition-all duration-500 hover:-translate-y-2 relative"
             >
               {/* Image Container (Placeholder) */}
               <div className="w-full aspect-video bg-gradient-to-br from-slate-800 to-slate-900 border-b border-white/10 relative overflow-hidden flex items-center justify-center">
@@ -159,13 +159,13 @@ const Projects = () => {
 
                 {/* Category Subheading */}
                 <div className="text-[10px] sm:text-[11px] font-mono uppercase tracking-widest text-white/50 mb-3 flex items-center gap-2">
-                  <span className="text-emerald-400 font-bold">FULL-STACK</span>
+                  <span className="text-sky-400 font-bold">FULL-STACK</span>
                   <span className="w-1 h-1 rounded-full bg-white/30"></span>
                   <span>{project.category}</span>
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl sm:text-2xl font-black text-white mb-4 leading-snug group-hover:text-emerald-400 transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl font-black text-white mb-4 leading-snug group-hover:text-sky-400 transition-colors duration-300">
                   {project.title}
                 </h3>
 
@@ -177,7 +177,7 @@ const Projects = () => {
                 {/* Tech Tags */}
                 <div className="flex flex-wrap gap-2 mb-8">
                   {project.tags.map((tag, tIdx) => (
-                    <span key={tIdx} className="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-[9px] sm:text-[10px] font-mono text-white/80 hover:bg-emerald-500/10 hover:border-emerald-500/30 hover:text-emerald-400 transition-colors">
+                    <span key={tIdx} className="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-[9px] sm:text-[10px] font-mono text-white/80 hover:bg-sky-500/10 hover:border-sky-500/30 hover:text-sky-400 transition-colors">
                       {tag}
                     </span>
                   ))}
@@ -185,13 +185,13 @@ const Projects = () => {
 
                 {/* Action Buttons Row */}
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mt-auto">
-                  {/* Live Demo Button (Teal) */}
+                  {/* Live Demo Button (sky) */}
                   {project.liveDemo && (
                     <a
                       href={project.liveDemo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-[13px] sm:text-sm font-bold shadow-[0_5px_15px_rgba(16,185,129,0.2)] hover:shadow-[0_8px_25px_rgba(16,185,129,0.4)] hover:-translate-y-0.5 transition-all"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-sky-500 hover:bg-sky-600 text-white text-[13px] sm:text-sm font-bold shadow-[0_5px_15px_rgba(56,189,248,0.2)] hover:shadow-[0_8px_25px_rgba(56,189,248,0.4)] hover:-translate-y-0.5 transition-all"
                     >
                       Live Demo
                     </a>
@@ -201,7 +201,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-slate-900 hover:bg-white/5 border border-white/10 hover:border-white/20 text-white text-[13px] sm:text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg"
+                    className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-950 hover:bg-white/5 border border-white/10 hover:border-white/20 text-white text-[13px] sm:text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" /></svg>
                     GitHub

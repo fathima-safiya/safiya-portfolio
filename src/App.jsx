@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   return (
-    <main className="bg-slate-900 min-h-screen text-white relative selection:bg-emerald-500 selection:text-white">
+    <main className="bg-blue-950 min-h-screen text-white relative selection:bg-sky-500 selection:text-white">
       {/* Cinematic Preloader */}
       {loading && <PortfolioPreloader onComplete={() => setLoading(false)} />}
 
