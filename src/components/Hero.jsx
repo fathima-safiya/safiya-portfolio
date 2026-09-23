@@ -247,7 +247,7 @@ const Hero = () => {
 
             <h1 className="hero-anim-item text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-black tracking-tighter text-white leading-[0.95] sm:leading-[0.9] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
               FATHIMA <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-500 drop-shadow-[0_0_35px_rgba(16,185,129,0.4)] pr-2 pb-2">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-emerald-500 drop-shadow-[0_0_35px_rgba(16,185,129,0.4)] pr-2 pb-2">
                 SAFIYA
               </span>
             </h1>
@@ -302,10 +302,10 @@ const Hero = () => {
               className="relative group transform-gpu transition-transform duration-100 ease-out will-change-transform max-w-full"
             >
               {/* Cinematic Red Neon Back Glow */}
-              <div className="absolute -inset-2 sm:-inset-3 bg-gradient-to-r from-teal-500/70 via-blue-500/40 to-sky-400/20 rounded-3xl blur-2xl sm:blur-3xl opacity-90 group-hover:opacity-100 animate-pulse duration-1000"></div>
+              <div className="absolute -inset-2 sm:-inset-3 bg-gradient-to-r from-emerald-500/70 via-emerald-600/40 to-slate-400/20 rounded-3xl blur-2xl sm:blur-3xl opacity-90 group-hover:opacity-100 animate-pulse duration-1000"></div>
               
               {/* Poster Card with Glowing Gradient Border */}
-              <div className="relative w-[260px] sm:w-[320px] md:w-[360px] lg:w-[400px] xl:w-[440px] rounded-2xl p-[1px] md:p-[2px] bg-gradient-to-br from-teal-400 via-blue-500 to-teal-500 shadow-[0_0_40px_rgba(16,185,129,0.3)] group-hover:shadow-[0_0_60px_rgba(59,130,246,0.5)] transition-shadow duration-500">
+              <div className="relative w-[260px] sm:w-[320px] md:w-[360px] lg:w-[400px] xl:w-[440px] rounded-2xl p-[1px] md:p-[2px] bg-gradient-to-br from-emerald-400 via-emerald-500 to-emerald-600 shadow-[0_0_40px_rgba(16,185,129,0.3)] group-hover:shadow-[0_0_60px_rgba(16,185,129,0.5)] transition-shadow duration-500">
                 <div className="relative w-full h-full p-2 md:p-3 bg-slate-900/80 backdrop-blur-3xl rounded-[15px] overflow-hidden">
                   
                   {/* Dynamic Specular Glare Layer */}
