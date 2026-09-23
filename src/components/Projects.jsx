@@ -5,7 +5,7 @@ import hallcamillaImg from '../assets/Portfolio/hallcamilla.png';
 import unifindImg from '../assets/Portfolio/unifind.png';
 import kurunegalaImg from '../assets/Portfolio/kurunegala.png';
 // Portfolio image screenshot
-import portfolioImg from '../assets/Portfolio/portfolio.png';
+import portfolioImg from '../assets/Portfolio/portfolio-screenshot.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
