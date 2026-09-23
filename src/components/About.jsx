@@ -106,9 +106,6 @@ const About = () => {
               }}
             ></div>
 
-            <div className="absolute top-0 right-0 p-6 sm:p-8 text-white/5 font-mono text-5xl sm:text-7xl font-black pointer-events-none">
-              01
-            </div>
             
             <div className="space-y-3 sm:space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-sky-400 font-bold">Background</h3>
