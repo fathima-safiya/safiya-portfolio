@@ -17,8 +17,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #0B1120;
-  color: #fff;
+  @apply bg-slate-900 text-slate-200;
   overflow-x: clip;
   width: 100%;
 }
