@@ -15,7 +15,7 @@ const expertiseData = [
   },
   {
     title: "Design & UI/UX",
-    skills: ["Figma", "Wireframing", "Prototyping", "Canva", "Responsive Design"]
+    skills: ["Figma", "Wireframing", "Prototyping", "Responsive Design"]
   },
   {
     title: "Soft Skills",
