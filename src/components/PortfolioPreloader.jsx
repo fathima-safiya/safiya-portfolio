@@ -78,7 +78,7 @@ const MinimalPreloader = ({ onComplete }) => {
           </div>
 
           {/* Premium Progress Line */}
-          <div className="w-full h-1.5 sm:h-2 bg-blue-900 border border-white/5 rounded-full overflow-hidden relative shadow-inner">
+          <div className="w-full h-1.5 sm:h-2 bg-white/5 border border-white/5 rounded-full overflow-hidden relative shadow-inner">
             <div 
               ref={progressRef}
               className="absolute top-0 left-0 h-full bg-gradient-to-r from-sky-500 to-sky-300 rounded-full transition-all duration-200 ease-out shadow-[0_0_20px_rgba(56,189,248,1)]"
