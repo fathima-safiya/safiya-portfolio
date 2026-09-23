@@ -27,7 +27,7 @@ const Expertise = () => {
   return (
     <section
       id="skills"
-      className="relative w-full bg-blue-950 text-white py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
+      className="relative w-full bg-[#0B1120] text-white py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 select-none overflow-hidden"
     >
       <div className="relative z-10 max-w-7xl mx-auto w-full space-y-8 sm:space-y-12">
         
@@ -62,7 +62,7 @@ const Expertise = () => {
           {expertiseData.map((item, index) => (
             <div
               key={index}
-              className="p-6 sm:p-8 rounded-2xl bg-blue-950/60 border border-white/5 hover:border-sky-500/30 hover:bg-blue-950/80 transition-all duration-300 flex flex-col group shadow-lg"
+              className="p-6 sm:p-8 rounded-2xl bg-[#0B1120]/60 border border-white/5 hover:border-sky-500/30 hover:bg-[#0B1120]/80 transition-all duration-300 flex flex-col group shadow-lg"
             >
               <h3 className="text-lg sm:text-xl font-bold text-white mb-6 group-hover:text-sky-400 transition-colors">
                 {item.title}

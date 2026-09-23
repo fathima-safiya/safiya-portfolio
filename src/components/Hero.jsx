@@ -106,7 +106,7 @@ const Hero = () => {
     <section
       id="home"
       ref={sectionRef}
-      className="relative w-full bg-blue-950 overflow-hidden flex flex-col justify-between select-none pb-8 sm:pb-12"
+      className="relative w-full bg-[#0B1120] overflow-hidden flex flex-col justify-between select-none pb-8 sm:pb-12"
     >
       <style>{`
         @keyframes marquee {
@@ -188,7 +188,7 @@ const Hero = () => {
 
       {/* Mobile Drawer Navigation Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-x-0 top-[68px] z-40 bg-blue-950/95 backdrop-blur-3xl border-b border-white/10 p-6 flex flex-col gap-4 shadow-2xl animate-in fade-in slide-in-from-top-4 duration-300">
+        <div className="md:hidden fixed inset-x-0 top-[68px] z-40 bg-[#0B1120]/95 backdrop-blur-3xl border-b border-white/10 p-6 flex flex-col gap-4 shadow-2xl animate-in fade-in slide-in-from-top-4 duration-300">
           <nav className="flex flex-col gap-3 text-sm font-mono uppercase tracking-widest text-white/80">
             <a 
               href="#home" 
@@ -306,7 +306,7 @@ const Hero = () => {
               
               {/* Poster Card with Glowing Gradient Border */}
               <div className="relative w-[260px] sm:w-[320px] md:w-[360px] lg:w-[400px] xl:w-[440px] rounded-2xl p-[1px] md:p-[2px] bg-gradient-to-br from-sky-400 via-sky-500 to-sky-600 shadow-[0_0_40px_rgba(56,189,248,0.3)] group-hover:shadow-[0_0_60px_rgba(56,189,248,0.5)] transition-shadow duration-500">
-                <div className="relative w-full h-full p-2 md:p-3 bg-blue-950/80 backdrop-blur-3xl rounded-[15px] overflow-hidden">
+                <div className="relative w-full h-full p-2 md:p-3 bg-[#0B1120]/80 backdrop-blur-3xl rounded-[15px] overflow-hidden">
                   
                   {/* Dynamic Specular Glare Layer */}
                   <div 

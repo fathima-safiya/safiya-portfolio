@@ -42,7 +42,7 @@ const MinimalPreloader = ({ onComplete }) => {
   return (
     <div
       ref={preloaderRef}
-      className="fixed inset-0 z-[9999] bg-blue-950 flex flex-col items-center justify-center select-none overflow-hidden"
+      className="fixed inset-0 z-[9999] bg-[#0B1120] flex flex-col items-center justify-center select-none overflow-hidden"
     >
       <div className="flex flex-col items-center text-center px-4 sm:px-6 relative z-10">
         

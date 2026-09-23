@@ -64,7 +64,7 @@ const Contact = () => {
   };
 
   return (
-    <section ref={ref} id="contact" className="bg-blue-950 w-full relative overflow-hidden flex items-end pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-12 border-t border-white/10 select-none">
+    <section ref={ref} id="contact" className="bg-[#0B1120] w-full relative overflow-hidden flex items-end pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-12 border-t border-white/10 select-none">
       
       {/* Background Cinematic Red Ambient Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[600px] h-[350px] sm:h-[600px] bg-sky-500/15 rounded-full blur-[140px] sm:blur-[160px] pointer-events-none z-0"></div>

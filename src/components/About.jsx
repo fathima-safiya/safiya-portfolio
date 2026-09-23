@@ -63,7 +63,7 @@ const About = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="relative w-full bg-blue-950 text-white py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 flex flex-col justify-center select-none overflow-hidden"
+      className="relative w-full bg-[#0B1120] text-white py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-12 flex flex-col justify-center select-none overflow-hidden"
     >
       {/* Background Cinematic Red Ambient Glows */}
       <div className="absolute top-1/4 left-10 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-sky-500/10 rounded-full blur-[140px] sm:blur-[160px] pointer-events-none"></div>
@@ -96,7 +96,7 @@ const About = () => {
           {/* Card 1: Bio & Academic Core (Span 12) */}
           <div
             ref={addToRefs}
-            className="md:col-span-12 p-6 sm:p-8 md:p-12 bg-blue-950/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col justify-between relative group hover:border-sky-500/60 hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_20px_60px_rgba(56,189,248,0.15)] transition-all duration-500 overflow-hidden"
+            className="md:col-span-12 p-6 sm:p-8 md:p-12 bg-[#0B1120]/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col justify-between relative group hover:border-sky-500/60 hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_20px_60px_rgba(56,189,248,0.15)] transition-all duration-500 overflow-hidden"
           >
             {/* Real-time mouse hover spotlight highlight */}
             <div 
@@ -138,7 +138,7 @@ const About = () => {
           {/* Card 3: Technical Ecosystem (Span 12) */}
           <div
             ref={addToRefs}
-            className="md:col-span-12 p-6 sm:p-8 md:p-12 bg-blue-950/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-sky-500/60 transition-all duration-500 overflow-hidden relative group"
+            className="md:col-span-12 p-6 sm:p-8 md:p-12 bg-[#0B1120]/90 backdrop-blur-2xl border border-white/10 rounded-3xl sm:rounded-[2.5rem] shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-sky-500/60 transition-all duration-500 overflow-hidden relative group"
           >
             {/* Real-time mouse hover spotlight highlight */}
             <div 

@@ -166,7 +166,7 @@ const Skills = () => {
     <section 
       id="skills"
       ref={sectionRef} 
-      className="relative w-full h-screen bg-blue-950 text-white overflow-hidden flex items-center justify-center md:[perspective:1000px] select-none"
+      className="relative w-full h-screen bg-[#0B1120] text-white overflow-hidden flex items-center justify-center md:[perspective:1000px] select-none"
     >
       {/* Dynamic Dark Background Vignettes */}
       {skillCategories.map((_, i) => (
