@@ -11,7 +11,7 @@ const expertiseData = [
   },
   {
     title: "Dev Tools",
-    skills: ["Git & GitHub", "VS Code", "Android Studio", "NPM", "Postman / APIs"]
+    skills: ["Git", "GitHub", "Visual Studio Code", "Android Studio"]
   },
   {
     title: "Design & UI/UX",
